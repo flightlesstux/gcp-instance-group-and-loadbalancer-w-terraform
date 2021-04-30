@@ -19,10 +19,10 @@ Managing the firewall rule for load balancer health check.\
 ## Usage
 
 - Step 1:\
-Pull this repository.
+Clone this repository.
 
 - Step 2:\
-`export GOOGLE_APPLICATION_CREDENTIALS=service-account-key.json`\
+`export GOOGLE_APPLICATION_CREDENTIALS="service-account-key.json"`\
 Authenticate to Google Platform if even google-sdk is not installed. It's really useful for CI/CD pipelines! If you already logged in to your Google Cloud Platform project like `gcloud auth login`, you can skip this step.
 
 - Step 3:\
